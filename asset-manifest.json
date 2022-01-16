@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medilabreactwebsite/static/css/main.99ea9d6f.css",
-    "main.js": "/medilabreactwebsite/static/js/main.84b7ca31.js",
+    "main.js": "/medilabreactwebsite/static/js/main.8c2c5df5.js",
     "static/media/hero-bg.jpg": "/medilabreactwebsite/static/media/hero-bg.780df2f268b43ea6e3aa.jpg",
     "static/media/gallery-4.jpg": "/medilabreactwebsite/static/media/gallery-4.0b4e121d2167b471ea19.jpg",
     "static/media/gallery-8.jpg": "/medilabreactwebsite/static/media/gallery-8.2a6eb3cf293a10646f42.jpg",
@@ -28,10 +28,10 @@
     "static/media/testimonials-3.jpg": "/medilabreactwebsite/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/medilabreactwebsite/index.html",
     "main.99ea9d6f.css.map": "/medilabreactwebsite/static/css/main.99ea9d6f.css.map",
-    "main.84b7ca31.js.map": "/medilabreactwebsite/static/js/main.84b7ca31.js.map"
+    "main.8c2c5df5.js.map": "/medilabreactwebsite/static/js/main.8c2c5df5.js.map"
   },
   "entrypoints": [
     "static/css/main.99ea9d6f.css",
-    "static/js/main.84b7ca31.js"
+    "static/js/main.8c2c5df5.js"
   ]
 }
