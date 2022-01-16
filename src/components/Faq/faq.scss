@@ -1,0 +1,45 @@
+#faq {
+    overflow: hidden;
+    background-color: #f1f7fd;
+    padding: 60px 0;
+    // accordion
+    .main_accordion {
+        .accordion_item {
+            background: #fff;
+            border-radius: 4px;
+            margin: 15px 0;
+            border: none;
+            box-shadow: none;
+            outline: none;
+        }
+        .q_icon {
+            margin-right: 0.7rem;
+            font-size: 22px;
+            color: #76b5ee;
+        }
+        .q_title {
+            margin-top: 0.5rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 500;
+            outline: none;
+            // hover
+            &:hover {
+                color: #1977cc;
+            }
+        }
+        .accordion-button:focus {
+            border: none;
+            box-shadow: none;
+            background-color: #fff;
+        }
+        // answer text
+        .ans_text {
+            margin-bottom: 0;
+            color: #444;
+        }
+    }
+}
+
+// ----- responsive -----

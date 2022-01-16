@@ -1,0 +1,89 @@
+#whyUs {
+    padding: 60px 0;
+    z-index: 10;
+    // content
+    .content {
+        margin-top: -57%;
+        padding: 30px;
+        background: #1977cc;
+        border-radius: 4px;
+        color: #fff;
+        .why_title {
+            color: #fff;
+            font-weight: 700;
+            font-size: 34px;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+        .why_text {
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        // btn
+        .learnMore_btn {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 30px 8px 30px;
+            color: #fff;
+            border-radius: 50px;
+            transition: all ease-in-out 0.4s;
+            // hover
+            &:hover {
+                color: #1977cc;
+                background: #fff;
+            }
+        }
+        // icon
+        .why_icon svg {
+            font-size: 10px;
+            font-weight: 500;
+        }
+        .svg_icon {
+            color: #fff;
+            transition: all ease-in-out 0.4s;
+        }
+        .learnMore_btn:hover .svg_icon {
+            color: #1977cc !important;
+        }
+    }
+    // card
+    .why_card {
+        margin-top: -62%;
+        text-align: center;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        padding: 40px 30px;
+        // heading
+        h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 30px 0;
+            line-height: 1.2;
+        }
+        // text
+        p {
+            font-size: 15px;
+            color: #848484;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        // card icon
+        .card_icon {
+            font-size: 40px;
+            color: #1977cc;
+            font-weight: 400;
+            line-height: 1;
+            // svg
+            svg {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+// -------- responsive --------
+@media (max-width: 991px) {
+    #whyUs .why_card {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,35 @@
+.repeat_title {
+    text-align: center;
+    // section title
+    h2.main_title {
+        position: relative;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #2c4964;
+        // before
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 120px;
+            height: 1px;
+            background: #ddd;
+            bottom: 1px;
+            left: calc(50% - 60px);
+        }
+        // after
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #1977cc;
+            bottom: 0;
+            left: calc(50% - 20px);
+        }
+    }
+}

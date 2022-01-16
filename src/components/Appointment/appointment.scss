@@ -1,0 +1,49 @@
+#appointment {
+    overflow: hidden;
+    background: #f1f7fd;
+    padding: 60px 0;
+    // form
+    form {
+        .form-control {
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 0;
+            box-shadow: none;
+            font-weight: 400;
+            color: #212529;
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            line-height: 1.5;
+            // focus
+            &:focus {
+                border-color: #1977cc;
+            }
+        }
+        .formSelect {
+            font-size: 14px;
+            color: #212529;
+            padding: 10px;
+            border-radius: 0;
+            box-shadow: none;
+            // focus
+            &:focus {
+                border-color: #1977cc;
+            }
+        }
+        // submit btn
+        .submit_btn {
+            background: #1977cc;
+            border: 0;
+            padding: 10px 35px;
+            color: #fff;
+            transition: 0.4s;
+            border-radius: 50px;
+            // hover
+            &:hover {
+                background: #1c84e3;
+            }
+        }
+    }
+}
+
+// ----- responsive -----

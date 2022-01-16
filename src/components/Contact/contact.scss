@@ -1,0 +1,81 @@
+#contact {
+    padding: 60px 0;
+    overflow: hidden;
+    .row>* {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    // address info
+    .address {
+        padding-top: 50px;
+        // info icon
+        .info_icon {
+            font-size: 20px;
+            color: #1977cc;
+            float: left;
+            width: 44px;
+            height: 44px;
+            background: #d6e9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+        }
+        .info_content {
+            h5 {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 5px;
+                color: #2c4964;
+                line-height: 1.2;
+            }
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+                color: #4b7dab;
+            }
+        }
+        // hover on address
+        &:hover .info_icon {
+            background: #1977cc;
+            color: #fff;
+        }
+    }
+    // form
+    form {
+        // row
+        .row>* {
+            padding-right: 12px;
+            padding-left: 12px;
+        }
+        .form-control {
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 0;
+            box-shadow: none;
+            font-weight: 400;
+            color: #212529;
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            line-height: 1.5;
+            // focus
+            &:focus {
+                border-color: #1977cc;
+            }
+        }
+        // submit btn
+        .submit_btn {
+            background: #1977cc;
+            border: 0;
+            padding: 10px 35px;
+            color: #fff;
+            transition: 0.4s;
+            border-radius: 50px;
+            // hover
+            &:hover {
+                background: #1c84e3;
+            }
+        }
+    }
+}

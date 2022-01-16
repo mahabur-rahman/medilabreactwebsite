@@ -1,0 +1,113 @@
+#doctors {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 60px 0;
+    .card {
+        padding: 30px;
+        box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+        border-radius: 10px;
+        border: 0;
+        // doctors img
+        .doctor_img {
+            overflow: hidden;
+            width: 200px;
+            border-radius: 50%;
+            & img {
+                transition: transform 0.3s;
+                width: 100%;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                -webkit-transition: transform 0.3s;
+                -moz-transition: transform 0.3s;
+                -ms-transition: transform 0.3s;
+                -o-transition: transform 0.3s;
+            }
+        }
+        // card content
+        .card_content {
+            .card_title {
+                font-weight: 700;
+                margin-bottom: 5px;
+                font-size: 20px;
+                color: #2c4964;
+                line-height: 1.2;
+            }
+            .designation {
+                font-size: 15px;
+                padding-bottom: 10px;
+                position: relative;
+                font-weight: 400;
+                // before
+                &:before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 50px;
+                    height: 1px;
+                    background: #b2c8dd;
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+            // text
+            .card_text {
+                margin: 10px 0 0 0;
+                font-size: 14px;
+            }
+        }
+        // social icon
+        ul {
+            .icon_list {
+                transition: 0.3s;
+                text-align: center;
+                width: 32px;
+                height: 32px;
+                background: #a0bcd5;
+                line-height: 30px;
+                margin: 0 4px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                // link
+                a {
+                    color: #fff;
+                    // svg
+                    svg {
+                        font-size: 14px;
+                    }
+                }
+                // hover
+                &:hover {
+                    background: #1977cc;
+                }
+            }
+        }
+        &:hover {
+            img {
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                -o-transform: scale(1.1);
+            }
+        }
+    }
+}
+
+// ------ responsive -------
+@media (max-width: 380px) {
+    #doctors {
+        text-align: center;
+        .d-flex {
+            flex-direction: column;
+        }
+        .card .card_content .designation::before {
+            display: none;
+        }
+    }
+}

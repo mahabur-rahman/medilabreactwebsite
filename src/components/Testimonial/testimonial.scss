@@ -1,0 +1,77 @@
+#testimonial {
+    overflow: hidden;
+    padding: 60px 0;
+    z-index: 10;
+    // testimonial card
+    .testimonial {
+        .slide_item {
+            padding: 30px 30px 30px 60px;
+            margin: 30px 15px;
+            min-height: 200px;
+            box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
+            background: #fff;
+        }
+        .card {
+            margin-left: 7%;
+            position: relative;
+            border: 0;
+            .slide_img {
+                img {
+                    width: 90px;
+                    border-radius: 10px;
+                    border: 6px solid #fff;
+                    position: absolute;
+                    left: -6%;
+                    // top: 20%;
+                }
+            }
+            // content
+            .slide_content {
+                .name {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin: 10px 0 5px 0;
+                    color: #111;
+                    line-height: 1.2;
+                }
+                .designation {
+                    font-size: 14px;
+                    color: #999;
+                    margin: 0;
+                }
+                .text {
+                    font-style: italic;
+                    margin: 15px auto 15px auto;
+                }
+                .quote_left {
+                    display: inline-block;
+                    left: -5px;
+                    position: relative;
+                    color: #badaf7;
+                    font-size: 26px;
+                }
+                .quote_right {
+                    display: inline-block;
+                    right: -5px;
+                    position: relative;
+                    top: 10px;
+                    color: #badaf7;
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+// swiper
+.swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #1977cc;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #1977cc;
+}

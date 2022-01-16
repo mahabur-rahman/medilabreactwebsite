@@ -1,0 +1,89 @@
+#services {
+    overflow: hidden;
+    text-align: center;
+    padding: 60px 0;
+    // services_card
+    .services_card {
+        .card {
+            height: 335px;
+            border: 1px solid #d5e1ed;
+            padding: 80px 20px;
+            transition: all ease-in-out 0.3s;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            // icon
+            .card_icon {
+                margin: 0 auto;
+                width: 64px;
+                min-height: 64px;
+                background: #1977cc;
+                border-radius: 5px;
+                transition: all 0.3s ease-out 0s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                transform-style: preserve-3d;
+                // svg
+                svg {
+                    color: #fff;
+                    font-size: 28px;
+                    font-weight: 900;
+                }
+                // before
+                &::before {
+                    position: absolute;
+                    content: "";
+                    left: -8px;
+                    top: -8px;
+                    height: 100%;
+                    width: 100%;
+                    background: #badaf7;
+                    border-radius: 5px;
+                    transition: all 0.3s ease-out 0s;
+                    transform: translateZ(-1px);
+                }
+            }
+            // title
+            .card_title {
+                font-weight: 700;
+                margin-bottom: 15px;
+                font-size: 24px;
+                a {
+                    color: #2c4964;
+                }
+            }
+            // text
+            .card_text {
+                line-height: 24px;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            // card hover
+            &:hover {
+                background: #1977cc;
+                border-color: #1977cc;
+            }
+            &:hover .card_icon {
+                background: #fff;
+            }
+            &:hover .card_title a,
+            &:hover .card_text {
+                color: #fff;
+            }
+            &:hover {
+                svg {
+                    color: #1977cc;
+                }
+            }
+            &:hover .card_icon::before {
+                background: #3291e6;
+            }
+        }
+    }
+}
+
+// ----- responsive -----

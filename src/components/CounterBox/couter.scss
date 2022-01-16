@@ -1,0 +1,41 @@
+#counterBox {
+    overflow: hidden;
+    background: #f1f7fd;
+    padding: 70px 0 60px;
+    // counter box
+    .counter_box {
+        padding: 30px 30px 7px 30px;
+        background: #fff;
+        // card
+        .card {
+            position: relative;
+            border: 0;
+            // icon
+            .card_icon {
+                position: absolute;
+                top: -50%;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 20px;
+                background: #1977cc;
+                color: #fff;
+                border-radius: 50px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 48px;
+                height: 48px;
+            }
+            // number
+            .card_num {
+                font-size: 36px;
+                font-weight: 600;
+                color: #082744;
+            }
+            // designation
+            .designation {
+                font-size: 14px;
+            }
+        }
+    }
+}
